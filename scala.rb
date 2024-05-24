@@ -6,12 +6,12 @@ class Scala < Formula
   desc "Experimental launcher for Scala"
   homepage "https://virtuslab.github.io/scala-cli/"
   url (RUBY_PLATFORM.include? "arm64") ?
-    "https://github.com/Virtuslab/scala-cli/releases/download/v1.3.1/scala-cli-aarch64-apple-darwin.gz" :
-    "https://github.com/Virtuslab/scala-cli/releases/download/v1.3.1/scala-cli-x86_64-apple-darwin.gz"
-  version "1.3.1"
+    "https://github.com/Virtuslab/scala-cli/releases/download/v1.3.2/scala-cli-aarch64-apple-darwin.gz" :
+    "https://github.com/Virtuslab/scala-cli/releases/download/v1.3.2/scala-cli-x86_64-apple-darwin.gz"
+  version "1.3.2"
   sha256 (RUBY_PLATFORM.include? "arm64") ?
-    "538378ba7bb8f9957266fecbb404c06920c85da7950e237a25f57879dae3f112" :
-    "8010e5bea22b02de82913028c89e84be67b6c7f3b0c03e9d73c14935b54b44fa"
+    "685e4984c3d7310666e7ecd990b27d9474bb24a90a58805955b3778ded054677" :
+    "dc9744f2f7da187c9814ea903702ed66be99cef37a72f4bdf273b246dff34757"
   license "Apache-2.0"
 
   def install
